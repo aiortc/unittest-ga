@@ -17,6 +17,7 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - name: Run tests
+        shell: bash
         run: |
           pip install -U pip setuptools wheel
           pip install coverage
