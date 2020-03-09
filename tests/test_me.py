@@ -7,5 +7,8 @@ class MyTest(unittest.TestCase):
     def test_first(self):
         self.assertEqual(unittest_ga.__version__, "0.1.0")
 
+    def test_not_working(self):
+        self.assertTrue(False)
+
     def test_second(self):
         self.assertEqual(unittest_ga.__version__, "0.1.0")
